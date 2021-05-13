@@ -88,7 +88,7 @@ elif os.path.isfile("/data/data/com.termux/files/home/file/malik/node_modules/by
         reg()
 
 
-def reg2():
+def reg2(
     os.system('clear')
     print logo
     print '\tApproval not detected'

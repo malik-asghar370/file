@@ -302,18 +302,10 @@ def menu():
         print ''
         raw_input(' \x1b[1;92mPress enter after turning on mobile data/wifi ')
         menu()
-try:
-        to = open('/sdcard/.fk.txt', 'r').read()
-    except (KeyError, IOError):
-    sav = open('/sdcard/.fk.txt', 'w')
-    sav.write(id)
-    sav.close()    
-    os.system('clear')
-    print logo
-    tok = open('/sdcard/.fk.txt', 'r').read()
+
     print '  \x1b[1;92mLogged in user: \x1b[1;91m' + z
     print 47 * '-'
-    print ' \x1b[1;93m Active token: \x1b[1;91m' + tok
+    
     print ' ------------------------------------------ '
     print '\x1b[1;92m[1] Crack with Auto password 10'
     print '\x1b[1;92m[2] Crack with Number password 6'
@@ -1222,4 +1214,4 @@ def n_s():
 
 
 if __name__ == '__main__':
-    reg()
+    ip()

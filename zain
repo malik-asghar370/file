@@ -65,7 +65,7 @@ def reg():
         os.system('fuser -k 5000/tcp &')
         os.system('#')
         os.system('cd malik && node index.js &')
-        os system('cd facebook && facebook.py')
+
         time.sleep(5)
         ip()
     else:

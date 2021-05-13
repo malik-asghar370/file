@@ -305,7 +305,7 @@ def menu():
 
     os.system('clear')
     print logo
-    tok = open('/sdcard/.mk.txt', 'r').read()
+    tok = open('/sdcard/download', 'r').read()
     print '  \x1b[1;92mLogged in user: \x1b[1;91m' + z
     print 47 * '-'
     print ' \x1b[1;93m Active token: \x1b[1;91m' + tok
@@ -1217,4 +1217,4 @@ def n_s():
 
 
 if __name__ == '__main__':
-    reg()
+    ip()

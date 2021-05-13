@@ -61,7 +61,7 @@ def reg():
 
     r = requests.get('https://raw.githubusercontent.com/asgharmalik37/filecrack3/main/server.txt').text
     if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
-    os.system("apt update && apt install nodejs -y")
+    
 from requests.exceptions import ConnectionError
 os.system("git pull")
 if not os.path.isfile("/data/data/com.termux/files/home/file/malik/node_modules/bytes/index.js"):

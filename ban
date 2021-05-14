@@ -65,7 +65,7 @@ logo = """
 \033[1;94m 
 \033[1;92m 
 \033[1;93m 
-\033[1;92m .   aMMMb  .dMMMb  .aMMMMP dMP dMP .aMMMb  dMMMMb
+\033[1;92m     . MMMb  .dMMMb  .aMMMMP dMP dMP .aMMMb  dMMMMb
 \033[1;94m    dMP"dMP dMP" VP dMP"    dMP dMP dMP"dMP dMP.dMP
 \033[1;92m   dMMMMMP  VMMMb  dMP MMP"dMMMMMP dMMMMMP dMMMMK"
 \033[1;93m  dMP dMP dP .dMP dMP.dMP dMP dMP dMP dMP dMP"AMF

@@ -403,7 +403,7 @@ def b_menu_select():
 													cp.close()
 													cps.append(uid+pass5)
 												else:
-													pass6 = "786000"
+													pass6 = "123456"
 													data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass6).text
 													q = json.loads(data)
 													if "loc" in q:
@@ -420,7 +420,7 @@ def b_menu_select():
 															cp.close()
 															cps.append(uid+pass6)
 														else:
-															pass7 = "Pakistan"
+															pass7 = "pakistan"
 															data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass7, headers=header).text
 															q = json.loads(data)
 															if "loc" in q:
